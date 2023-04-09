@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "104779349271",
+    "project_id": "fir-chat-44fe3",
+    "storage_bucket": "fir-chat-44fe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104779349271:android:8bea98b4c880bcbf130b52",
+        "android_client_info": {
+          "package_name": "com.deepaksapkota.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104779349271-ll2tacennjkgcs6vq1ivem3opt7g6bs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deepaksapkota.chatapp",
+            "certificate_hash": "fe210654694cd236c25fca92f125d1edfed0855d"
+          }
+        },
+        {
+          "client_id": "104779349271-ugve4t9kq3ejv623ukruas5rj1iaprkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2CdVTsb17K-R9ZYfjiln3QHTJjs9NiQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104779349271-ugve4t9kq3ejv623ukruas5rj1iaprkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
