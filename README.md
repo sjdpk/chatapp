@@ -1,23 +1,54 @@
 # firebase_chat
 "firebase base chat system"
 #out project structure is
-lib/src/
-auth/
-  • auth_repository.dart
-  • auth_service.dart 
-  • login_page.dart
-  • signup_page.dart
-chat/
-  • chat_repository.dart
-  • chat_service.dart
-  • chat_list_page.dart
-  • chat_detail_page.dart
-models/
-  • user.dart
-  • message.dart
-utils/
-  • firebase_utils.dart
-  • http_utils.dart 
+.
+├── main.dart
+└── src
+    ├── auth
+    │   ├── models
+    │   │   └── user.dart
+    │   ├── screens
+    │   │   ├── signin_page.dart
+    │   │   ├── signup_page.dart
+    │   │   └── userinfo_page.dart
+    │   ├── services
+    │   │   ├── auth_service.dart
+    │   │   ├── auth_service.g.dart
+    │   │   ├── user_service.dart
+    │   │   └── user_service.g.dart
+    │   └── widgets
+    │       └── apptextfield.dart
+    ├── chat
+    │   ├── models
+    │   │   └── message.dart
+    │   ├── screens
+    │   │   ├── chatlist.dart
+    │   │   └── chatpage.dart
+    │   └── widget
+    │       ├── lastseen_widget.dart
+    │       ├── messagecard_widget.dart
+    │       ├── msgcard_widget.dart
+    │       ├── profile_widget.dart
+    │       └── recentchat_widget.dart
+    ├── config
+    │   └── config.dart
+    ├── home
+    │   ├── screens
+    │   │   ├── homepage.dart
+    │   │   └── search_user.dart
+    │   └── widgets
+    │       └── search_widget.dart
+    └── utils
+        ├── appstore.dart
+        ├── appstore.g.dart
+        ├── colors.dart
+        ├── firebase_utils.dart
+        ├── http_utils.dart
+        ├── log.dart
+        ├── snackbar.dart
+        ├── textstyle.dart
+        ├── timestamp.dart
+        └── validator.dart
 
 #create folder structure
 $mkdir lib/src;cd lib/src
