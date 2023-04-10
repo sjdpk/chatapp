@@ -37,7 +37,6 @@ It has the following folder structure:
     │   │   └── user.dart
     │   ├── screens
     │   │   ├── signin_page.dart
-    │   │   ├── signup_page.dart
     │   │   └── userinfo_page.dart
     │   ├── services
     │   │   ├── auth_service.dart
