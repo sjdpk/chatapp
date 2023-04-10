@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (_) => UserInfoScreen()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => const UserInfoScreen()));
               },
               icon: const Icon(Icons.person_2))
         ],

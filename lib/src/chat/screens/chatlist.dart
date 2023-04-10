@@ -1,14 +1,9 @@
 import 'package:chatapp/src/chat/widget/messagecard_widget.dart';
-import 'package:chatapp/src/chat/widget/profile_widget.dart';
 import 'package:chatapp/src/config/config.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
-import '../../utils/colors.dart';
-import '../../utils/textstyle.dart';
-import 'chatpage.dart';
 
 class ChatListWidget extends StatelessWidget {
   final FirebaseFirestore firestore;
